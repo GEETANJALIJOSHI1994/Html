@@ -10,28 +10,101 @@
 
 </head>
 <body>
+    
     <table border="1">
         <caption> FOOD MENU </caption>
+        <!-- TABLE HEADER -->
+     <thead>
         <tr>
             <th>item</th>
             <th>price</th>
         </tr>
-        <br>
+     </thead>
+       <!-- TABLE BODY -->
+        <tbody>
+            <tr>
+                <td>frooti</td>
+                <td>10</td>
+          </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>12</td>
+            </tr>
+               
+            <tr>
+                <td>chips</td>
+                <td>20</td>
+            </tr>   
+                       
+        </tbody>
+    <!-- TABLE FOOTER -->
+        <tfoot>made by &hearts;</tfoot>
+       <hr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <!-- COLSPAN AND ROWSPAN ATTRIBUTES -->
+     <table border="1">
+        <caption>Food Menu</caption>
         <tr>
-            <td>frooti</td>
+            <th rowspan="2">item</th>
+            <th colspan ="2">Price</th>
+        </tr>
+        <tr>
+            <th>INR</th>
+            <th>USD</th>
+        </tr>
+        <tr>
+            <td>Frooti</td>
             <td>10</td>
+            <td>0.14</td>
+        </tr>
         <tr>
             <td>Samosa</td>
             <td>12</td>
+            <td>0.17</td>
         </tr>
-        <br>    
         <tr>
-            <td>chips</td>
+            <td>Chips</td>
             <td>20</td>
-        </tr>   
-           
+            <td>0.28</td>
         </tr>
-       
+     </table>
+     <br>
+     <hr>
+     <br>
+     <!-- pracatice qustion 1 -->
+    <!-- re create the folloing table using HTML -->
+
+    <table border="1">
+        <caption>A test with merget cell</caption>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red eyes</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>Weight</td>
+        </tr>
+        <tr>
+            <td>Male</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Female</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
     </table>
+    <br>
+    <hr>
+    <br>
+    
+
 </body>
 </html>
