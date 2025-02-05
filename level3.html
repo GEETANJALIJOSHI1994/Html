@@ -253,12 +253,14 @@
             <label for="banana">BANANA</label>
            </div>
            <br>
+           
            <div>
             <input type="radio" name="frute" id="orange" value="orange" >
             <label for="orange">ORANGE</label>
            </div>
            <br>
            <div>
+            <!-- using dropdown element -->
             <label for="profesion">what is your profesion</label>
             <select name="profrssion" id="profession" placeholder="profesion">
                 <option value="stu">Student</option>
@@ -267,12 +269,50 @@
            </div>
            <br>
            <div>
+            <!-- using range input -->
              <label for="volume">volume</label>
              <input type="range" min="0" max="100" name="vol">
-            <hr>
+            <br>
            </div>
+           <br>
+           <div>
+            <label for="feedback">please provide your feedback:</label>
+            <textarea id="feedback" name="'feedback" placeholder="write your feedback" ></textarea>
+           </div>
+
            <br>
            <button>submmit</button>
         </form>   
+           <hr>
+           <br>
+           <form>
+            <h2>Registration Form</h2>
+            <br>
+            <div>
+                <label for="First Name">First name</label>
+                <input type="text" id="First Name" placeholder="First Name" name="First Name">
+                <label for="Last Name">Last Name</label>
+                <input type="text" id="Last Name" placeholder="Last Name" name="Last Name">
+                <br>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Please Select gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">MALE</option>
+                    <option value=""femail>FEMALE</option>
+
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="checkbox">Do You Agree To All Terms Of Service</label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <label> Yes.I agree</label>
+            </div>
+            <br>
+            <button type="submmit">Register</button>
+           </form>
+        
 </body> 
 </html>
